@@ -1,0 +1,247 @@
+// variables
+$fontSize:        15px;
+$fontSizeSmall:   13px;
+$fontSizeMedium:  18px;
+$fontSizeLarge:   20px;
+$fontSizexLarge:  46px;
+$fontFamily:     'Montserrat', 'Helvetica Neue', 'Lucida Grande', Arial, Verdana, sans-serif;
+$fontLight:       300;
+$fontNormal:      400;
+$fontMedium:      500;
+$textColor:       #666D78;
+$textColorLight:  #9E9E9E;
+$textColorDark:   #333F52;
+$inputSizeLg:     60px;
+$inputSizeMd:     50px;
+$primaryColor:    #F25C6E;
+$bodyColor:       #F2F6F9;
+$greenAlert:      #00bf86;
+$redAlert:        #DD6777;
+$blueAlert:       #4a90e2;
+$paddingSize:     5px;
+$padding-xl:      5*$paddingSize;
+$padding-lg:      4*$paddingSize;
+$padding:         3*$paddingSize;
+$padding-sm:      2*$paddingSize;
+$padding-xs:      $paddingSize;
+$boxShadow:       0 5px 15px 0 rgba(0,0,0,0.07), 0 15px 35px 0 rgba(50,50,93,0.10);
+
+// mixins
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin border-left-radius($radius) {
+    -webkit-border-bottom-left-radius: $radius;
+    border-bottom-left-radius: $radius;
+    -webkit-border-top-left-radius: $radius;
+    border-top-left-radius: $radius;
+    background-clip: padding-box;
+}
+
+@mixin box-shadow($shadow1, $shadow2:false, $shadow3:false, $shadow4:false, $shadow5:false) {
+ $params: $shadow1;
+  @if $shadow2
+    { $params: $shadow1, $shadow2; }
+    @if $shadow3 != false
+      { $params: $shadow1, $shadow2, $shadow3; }
+      @if $shadow4 != false
+        { $params: $shadow1, $shadow2, $shadow3, $shadow4; }
+        @if $shadow5 != false
+          { $params: $shadow1, $shadow2, $shadow3, $shadow4, $shadow5; }
+
+  -webkit-box-shadow: $params;
+     -moz-box-shadow: $params;
+          box-shadow: $params;
+}
+
+@mixin transition($args...) {
+    -webkit-transition: $args;
+    -moz-transition: $args;
+    -ms-transition: $args;
+    -o-transition: $args;
+    transition: $args;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap');
+
+// css
+body {
+  background: #fefefe;
+  letter-spacing: 0.01em;
+  color: $textColor;
+  font-weight: $fontLight;
+  font-size: $fontSize;
+  letter-spacing: 0.01em;
+  line-height: 1.8;
+  padding: $padding-xl $padding;
+}
+
+.pricing {
+    position: relative;
+    padding-top: 0;
+    font-family: $fontFamily;
+
+    &.hidden {
+        display: none;
+    }
+
+    .container {
+      width: 94%;
+      max-width: 1440px;
+    }
+
+    .price-column {
+        display: block;
+        float: left;
+        background: white;
+        width: 23%;
+        margin-right: 2%;
+        margin-top: $inputSizeMd;
+        text-align: center;
+        overflow: hidden;
+        @include border-radius(6px);
+        @include box-shadow(0 0 58px -4px rgba(39,47,48,.21));
+        @include transition(all 200ms ease-in);
+
+        .popular {
+            height: $inputSizeMd;
+            line-height: $inputSizeMd;
+            background-color: $primaryColor;
+            color: white;
+            z-index: 1;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-weight: $fontMedium;
+        }
+
+        .pricing-price {
+            min-height: 270px;
+            padding: $padding-xl $padding;
+
+            .pricing-plan {
+                h3 {
+                    display: block;
+                    text-transform: uppercase;
+                    font-size: 24px;
+                    margin: 0;
+                }
+            }
+
+            .pricing-plan-price {
+                display: block;
+                line-height: 1;
+                padding: $padding-lg $padding-sm;
+
+                .price {
+                    display: none;
+
+                    .currency {
+                        font-size: $fontSizeMedium;
+                    }
+
+                    .cost {
+                        font-size: $fontSizexLarge;
+                    }
+
+                    .period {
+                        font-size: $fontSizeSmall;
+                        text-transform: uppercase;
+                    }
+
+                    .frequency {
+                        display: block;
+                        font-size: $fontSizeSmall;
+                        color: $textColorLight;
+                        padding-top: $padding-sm;
+                        text-transform: uppercase;
+                    }
+
+                    &.active {
+                        display: block;
+                    }
+                }
+            }
+
+            .buy-button {
+                margin-top: $padding;
+            }
+        }
+
+        .pricing-features {
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+
+                li {
+                    display: block;
+                    padding: $padding-sm $padding;
+                    margin: 0 0 $padding-xs;
+
+                    &:nth-child(odd) {
+                        background-color: $bodyColor;
+                    }
+
+                    i.fa-check {
+                        color: $greenAlert;
+                    }
+
+                    i.fa-times {
+                        color: $redAlert;
+                    }
+
+                    &:last-child {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+
+        .buy-button-bottom {
+            background: $bodyColor;
+            width: 100%;
+            height: $inputSizeMd;
+
+            a.btn {
+                display: block;
+                width: 100%;
+                line-height: $inputSizeMd;
+                height: $inputSizeMd;
+                z-index: 1;
+                @include border-radius(0);
+            }
+        }
+
+        &:hover {
+            @include box-shadow($boxShadow);
+            @include transition(all 200ms ease-in);
+        }
+
+        &:first-child {
+            margin-right: 0;
+            width: 27%;
+            background: transparent;
+            @include box-shadow(none);
+
+            .pricing-features {
+                ul li {
+                    background: $bodyColor;
+                    @include border-left-radius(4px);
+                }
+            }
+
+            &:hover {
+                @include box-shadow(none);
+            }
+        }
+
+        &:last-child {
+            margin-right: 0;
+            margin-top: 0;
+        }
+    }
+}
