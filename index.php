@@ -163,7 +163,7 @@
 						</div>
                         
 						<div class="text">
-							<span>En todo negocio es importante llevar un control total de las ventas. Además de ventas Online, registrá las ventas que realices presencialmente en tu negocio.</span>
+							<span>En todo negocio es importante llevar un control total de las ventas para poder crecer. Además de las ventas Online realizadas por tus clientes, registrá tambien aquellas que realices presencialmente en tu local de negocio.</span>
 						</div>
                         
 					 </div>
@@ -180,7 +180,7 @@
 						</div>
                         
 						<div class="text">
-							<span>El sistema te notificará si ocurre algo! Cada vez que un cliente se registra, realiza una compra, recibas un mensaje, tengas un nuevo comentario, reseña o te estes quedando sin stock de algún producto te lo haremos saber.</span>
+							<span>El sistema te notificará si ocurre algo! <br>Cada vez que un cliente se registra, realiza una compra, recibas un mensaje, tengas un nuevo comentario, reseña o te estes quedando sin stock de algún producto te lo haremos saber.</span>
 						</div>
                         
 					 </div>
@@ -197,7 +197,7 @@
 						</div>
                         
 						<div class="text">
-							<span>Redirigí los seguidores a tu sitio! Podras publicitar productos, realizar notas, publicar eventos o generar temas de interes y compartirlos en tus redes sociales.</span>
+							<span>Redirigí los seguidores a tu sitio! <br> Podras publicitar productos, realizar notas, publicar eventos o generar temas de interes con imagenes ilustrativas y compartirlas en tus redes sociales.</span>
 						</div>
                         
 					 </div>
@@ -215,7 +215,7 @@
 						</div>
                         
 						<div class="text">
-							<span>Conocé cuales son los productos más vendidos y tus clientes potenciales. De acuerdo a ésta información podrás crear estrategias de marketing para impulsar tus ventas.</span>
+							<span>Conocé cuales son los productos más vendidos y tus clientes potenciales! <br> De acuerdo a ésta información podrás crear estrategias de marketing y contenido para impulsar tus ventas.</span>
 						</div>
                         
 					 </div>
@@ -250,7 +250,7 @@
 						</div>
                         
 						<div class="text">
-							<span>Podrás promocionar aquellos productos que creas necesarios. Ofrecerles descuentos a los usuarios son un elemento clave a la hora de vender. Los productos destacados aparecerán en distintas secciones del sitio.</span>
+							<span>Podrás promocionar aquellos productos que creas necesarios. Ofrecerles descuentos a los usuarios son un elemento decisivo a la hora de vender. Los productos destacados aparecerán en distintas secciones del sitio.</span>
 						</div>
                         
 					 </div>
@@ -261,8 +261,8 @@
 </div>
 
     <div class="container">
-        <h4>Haz clic en el botón para acceder a la version DEMO.</h4>
-        <p>La siguiente versión de demostración del software corresponde al plan <span class="badge badge-danger">Premium</span>.</p>
+        <h4>Haz clic en el botón para acceder a la versión de demostración.</h4>
+        <p>La siguiente versión del software corresponde al plan <span class="badge badge-danger">Premium</span>.</p>
         
         <a href="https://www.sc-hosting.com.uy/auth" target="_blank" class="btn btn-lg btn-primary">Ver DEMO <i class="fa fa-arrow-circle-right text-white"></i></a>
         <p><em>Las credenciales de acceso puedes encontrarlas en el formulario de inicio de sesión.</em></p>
