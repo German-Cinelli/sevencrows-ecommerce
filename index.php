@@ -12,7 +12,7 @@
     <!-- Font Awesome -->
 	  <link rel="stylesheet" href="http://localhost/Projects/vayne/assets/AdminLTE/bower_components/font-awesome/css/font-awesome.min.css">
 
-    <title></title>
+    <title>sevencrows/Ecommerce</title>
   </head>
   <body>
 
