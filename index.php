@@ -97,7 +97,7 @@
   </div>
 
   <div class="container-fluid bg-white p-5 text-lead">
-    <h4>breve explicacion de la importancia de vender por internet... que ventajas hay y que beneficios trae para el crecimiento de las empresas</h4>
+    <h4>breve explicacion de la importancia de vender por internet... que ventajas hay y que beneficios trae para el crecimiento de las empresas...</h4>
     <h4>que ofrecemos... a quien va dirigido... (pequeñas, medianas empresas y emprendedores)</h4>
     <h4>...</h4>
     <h4>A continuación detallaremos algunas características...</h4>
@@ -218,7 +218,7 @@
             <i class="fa fa-line-chart fa-3x" aria-hidden="true"></i>
                         
 						<div class="title">
-							<h4>Impulsa tus ventas</h4>
+							<h4>Impulsá tus ventas</h4>
 						</div>
                         
 						<div class="text">
@@ -271,14 +271,14 @@
       <h4>Disponemos de varios planes a partir de <strong>$25</strong> al mes, elegí el que mas se adapte a tu negocio o emprendimiento.</h4>
     </div>
 
-    <div class="container mt-5">
+    <div class="container my-5 p-5 bg-white">
         <h4>Hemos lanzado una versión de demostración mostrando todas las características del producto, aquí te dejamos una <a href="https://www.sc-hosting.com.uy/" target="_blank">tienda de ejemplo</a>.</h4>
         <br>
         <h4>El siguiente botón te redirigirá al panel administrativo, te damos la posibilidad de que puedas ingresar productos, proveedores y gestionar ventas si así lo deseas.</h4>
         <p>La versión demo del software corresponde al plan <span class="badge badge-danger">Premium</span>.</p>
         
         <a href="https://www.sc-hosting.com.uy/auth" target="_blank" class="btn btn-lg btn-primary">Ver DEMO <i class="fa fa-arrow-circle-right text-white"></i></a>
-        <p><em>Las credenciales de acceso puedes encontrarlas en el formulario de inicio de sesión.</em></p>
+        <p><em>Las credenciales de acceso podes encontrarlas en el formulario de inicio de sesión.</em></p>
     </div>
 
     <div class="pricing">
