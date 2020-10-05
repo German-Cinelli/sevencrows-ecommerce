@@ -6,13 +6,13 @@
                     <div class="pricing-plan-price">
                         <div class="price active">
                             <span class="currency">$</span>
-                            <span class="cost">29</span>
+                            <span class="cost">25</span>
                             <span class="period">/ mes</span>
                             <span class="frequency">Para que los visitantes puedan ver tus productos</span>
                         </div>
                         <div class="price">
                             <span class="currency">$</span>
-                            <span class="cost">29</span>
+                            <span class="cost">25</span>
                             <span class="period">/ mes</span>
                             <span class="frequency">Para que los visitantes puedan ver tus productos</span>
                         </div>

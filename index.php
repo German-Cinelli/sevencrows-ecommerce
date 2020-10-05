@@ -59,7 +59,7 @@
         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
         <div class="container">
           <div class="carousel-caption text-left">
-            <h1>E-Commerce</h1>
+            <h1>Lorem, ipsum.</h1>
             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
             <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
           </div>
@@ -96,8 +96,15 @@
     </a>
   </div>
 
+  <div class="container-fluid bg-white p-5 text-lead">
+    <h4>breve explicacion de la importancia de vender por internet... que ventajas hay y que beneficios trae para el crecimiento de las empresas</h4>
+    <h4>que ofrecemos... a quien va dirigido... (pequeñas, medianas empresas y emprendedores)</h4>
+    <h4>...</h4>
+    <h4>A continuación detallaremos algunas características...</h4>
+  </div>
 
-  <div class="box mt-5">
+
+  <div class="box">
     <div class="container">
      	<div class="row">
 			 
@@ -105,7 +112,7 @@
                
 					<div class="box-part text-center">
                         
-                        <i class="fa fa-mobile fa-3x" aria-hidden="true"></i>
+            <i class="fa fa-mobile fa-3x" aria-hidden="true"></i>
                         
 						<div class="title">
 							<h4>Web Responsive</h4>
@@ -163,7 +170,7 @@
 						</div>
                         
 						<div class="text">
-							<span>En todo negocio es importante llevar un control total de las ventas para poder crecer. Además de las ventas Online realizadas por tus clientes, registrá tambien aquellas que realices presencialmente en tu local de negocio.</span>
+							<span>En todo negocio es importante llevar un control total de las ventas para poder crecer. Además de las ventas Online efectuadas por tus clientes, registrá tambien aquellas que realices presencialmente en tu local de negocio.</span>
 						</div>
                         
 					 </div>
@@ -260,9 +267,15 @@
     </div>
 </div>
 
-    <div class="container">
-        <h4>Haz clic en el botón para acceder a la versión de demostración.</h4>
-        <p>La siguiente versión del software corresponde al plan <span class="badge badge-danger">Premium</span>.</p>
+    <div class="container-fluid p-5 text-lead text-white text-center" style="background-color: #0BB5FF">
+      <h4>Disponemos de varios planes a partir de <strong>$25</strong> al mes, elegí el que mas se adapte a tu negocio o emprendimiento.</h4>
+    </div>
+
+    <div class="container mt-5">
+        <h4>Hemos lanzado una versión de demostración mostrando todas las características del producto, aquí te dejamos una <a href="https://www.sc-hosting.com.uy/" target="_blank">tienda de ejemplo</a>.</h4>
+        <br>
+        <h4>El siguiente botón te redirigirá al panel administrativo, te damos la posibilidad de que puedas ingresar productos, proveedores y gestionar ventas si así lo deseas.</h4>
+        <p>La versión demo del software corresponde al plan <span class="badge badge-danger">Premium</span>.</p>
         
         <a href="https://www.sc-hosting.com.uy/auth" target="_blank" class="btn btn-lg btn-primary">Ver DEMO <i class="fa fa-arrow-circle-right text-white"></i></a>
         <p><em>Las credenciales de acceso puedes encontrarlas en el formulario de inicio de sesión.</em></p>

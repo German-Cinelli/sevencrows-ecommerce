@@ -35,7 +35,7 @@
                             <i class="fa fa-question-circle" data-toggle="tooltip" data-placement="right" title="Podrás poner banners de tamaño grande en la portada de tu sitio promocionando tus productos, será lo primero que verán los visitantes al ingresar al sitio."></i>
                         </li>
                         <li class="">
-                            <span>Registro / Inicio de sesión</span>
+                            <span>Registro de usuarios</span>
                             <i class="fa fa-question-circle" data-toggle="tooltip" data-placement="right" title="Tus clientes podrán registrarse y acceder a tu sitio web."></i>
                         </li>
                         <li class="">
@@ -67,8 +67,8 @@
                             <i class="fa fa-question-circle" data-toggle="tooltip" data-placement="right" title="Destaca aquellos productos que creas necesarios, aparecerán en varias secciones del sitio para que tus clientes puedan verlos."></i>
                         </li>
                         <li class="">
-                            <span>Reportes gráficos</span>
-                            <i class="fa fa-question-circle" data-toggle="tooltip" data-placement="right" title="Verás una gráfica mostrando los gastos e ingresos de tu negocio."></i>
+                            <span>Reportes</span>
+                            <i class="fa fa-question-circle" data-toggle="tooltip" data-placement="right" title="Verás cuales son los clientes más compradores, productos más vendidos, historial de ventas y gráfico de gastos e ingresos de tu negocio."></i>
                         </li>
                         
                     </ul>

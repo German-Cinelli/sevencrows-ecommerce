@@ -6,13 +6,13 @@
                     <div class="pricing-plan-price">
                         <div class="price active">
                             <span class="currency">$</span>
-                            <span class="cost">49</span>
+                            <span class="cost">45</span>
                             <span class="period">/ mes</span>
                             <span class="frequency">Paquete básico para comenzar a vender por Internet</span>
                         </div>
                         <div class="price">
                             <span class="currency">$</span>
-                            <span class="cost">49</span>
+                            <span class="cost">45</span>
                             <span class="period">/ mes</span>
                             <span class="frequency">Todo lo básico para comenzar a vender por Internet</span>
                         </div>

@@ -9,13 +9,13 @@
                     <div class="pricing-plan-price">
                         <div class="price active">
                             <span class="currency">$</span>
-                            <span class="cost">99</span>
+                            <span class="cost">95</span>
                             <span class="period">/ mes</span>
                             <span class="frequency">Todo lo que necesitas para un negocio en crecimiento</span>
                         </div>
                         <div class="price">
                             <span class="currency">$</span>
-                            <span class="cost">99</span>
+                            <span class="cost">95</span>
                             <span class="period">/ mes</span>
                             <span class="frequency">Todo lo que necesitas para un negocio en crecimiento</span>
                         </div>
