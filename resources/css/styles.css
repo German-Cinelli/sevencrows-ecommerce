@@ -1,0 +1,11 @@
+.mobile-menu-area {
+  display: none;
+}
+
+
+
+@media (max-width: 767px) {
+  .top-bar, .top-bar2, .logo-area, .logo-area2, .cart-body, .cart-overlay, .menu-area, .menu-area2 {
+    display: none;
+  }
+}

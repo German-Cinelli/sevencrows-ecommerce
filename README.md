@@ -1,1 +1,2 @@
 # sevencrows-ecommerce
+# pricing

@@ -2,8 +2,11 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Styles -->
+    <link rel="stylesheet" href="resources/css/styles.css">
     <!-- Carousel -->
     <link rel="stylesheet" href="resources/css/carousel.css">
     <!--<link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/carousel/">-->
@@ -24,7 +27,7 @@
       font-size:15px;
   }
   a{
-    text-decoration:none; 
+    text-decoration:none;
     color: #0062cc;
     border-bottom:2px solid #0062cc;
   }
@@ -107,183 +110,186 @@
   <div class="box">
     <div class="container">
      	<div class="row">
-			 
-			    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-               
+
+			    <div class="col-lg-4 col-md-12 col-sm-12">
+
 					<div class="box-part text-center">
-                        
+
             <i class="fa fa-mobile fa-3x" aria-hidden="true"></i>
-                        
+
 						<div class="title">
 							<h4>Web Responsive</h4>
 						</div>
-                        
+
 						<div class="text">
-							<span>Diseño profesional y moderno, tu sitio se adapta a cualquier tipo de dispositivo celular y tablet. Accedé desde cualquier parte.</span>
+							<span>Diseño profesional y moderno, tu sitio se adapta a cualquier tipo de dispositivo celular y/o tablets. Accedé desde cualquier parte.</span>
 						</div>
-                        
+
 					 </div>
-				</div>	 
-				
-				 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-               
+				</div>
+
+				 <div class="col-lg-4 col-md-12 col-sm-12">
+
 					<div class="box-part text-center">
-					    
+
 					    <i class="fa fa-th-large fa-3x" aria-hidden="true"></i>
-                    
+
 						<div class="title">
 							<h4>Panel administrativo</h4>
 						</div>
-                        
+
 						<div class="text">
 							<span>Todo lo que necesitas para administrar tu sitio de forma facil e intuitiva. Ingresá productos, ventas, proveedores y mucho más.</span>
 						</div>
-                        
+
 					 </div>
-				</div>	 
-				
-				 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-               
+				</div>
+
+				 <div class="col-lg-4 col-md-12 col-sm-12">
+
 					<div class="box-part text-center">
-                        
+
             <i class="fa fa-truck fa-3x" aria-hidden="true"></i>
-                        
+
 						<div class="title">
 							<h4>Gestión de pedidos</h4>
 						</div>
-                        
+
 						<div class="text">
 							<span>Podrás visualizar todas las ventas realizadas, ver pedidos enviados y pendientes de entrega para una mejor administración.</span>
 						</div>
-                        
+
 					 </div>
-				</div>	 
-				
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-               
+				</div>
+
+				<div class="col-lg-4 col-md-12 col-sm-12">
+
 					<div class="box-part text-center">
-                        
+
             <i class="fa fa-calculator fa-3x" aria-hidden="true"></i>
-                        
+
 						<div class="title">
 							<h4>Punto de venta</h4>
 						</div>
-                        
+
 						<div class="text">
-							<span>En todo negocio es importante llevar un control total de las ventas para poder crecer. Además de las ventas Online efectuadas por tus clientes, registrá tambien aquellas que realices presencialmente en tu local de negocio.</span>
+							<span>Siempre es importante llevar un control total de las ventas para poder crecer. Además de las ventas Online efectuadas por los usuarios a traves de la Web, registrá tambien aquellas que realices presencialmente en tu negocio.</span>
 						</div>
-                        
+
 					 </div>
-				</div>	 
-				
-				 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-               
+				</div>
+
+				 <div class="col-lg-4 col-md-12 col-sm-12">
+
 					<div class="box-part text-center">
-					    
+
 					    <i class="fa fa-bell-o fa-3x" aria-hidden="true"></i>
-                    
+
 						<div class="title">
 							<h4>Notificaciones</h4>
 						</div>
-                        
+
 						<div class="text">
 							<span>El sistema te notificará si ocurre algo! <br>Cada vez que un cliente se registra, realiza una compra, recibas un mensaje, tengas un nuevo comentario, reseña o te estes quedando sin stock de algún producto te lo haremos saber.</span>
 						</div>
-                        
+
 					 </div>
-				</div>	 
-				
-				 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-               
+				</div>
+
+				 <div class="col-lg-4 col-md-12 col-sm-12">
+
 					<div class="box-part text-center">
-                        
+
                         <i class="fa fa-users fa-3x" aria-hidden="true"></i>
-                        
+
 						<div class="title">
 							<h4>Interactuá con la comunidad</h4>
 						</div>
-                        
+
 						<div class="text">
 							<span>Redirigí los seguidores a tu sitio! <br> Podras publicitar productos, realizar notas, publicar eventos o generar temas de interes con imagenes ilustrativas y compartirlas en tus redes sociales.</span>
 						</div>
-                        
+
 					 </div>
 				</div>
 
 
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-               
+        <div class="col-lg-4 col-md-12 col-sm-12">
+
 					<div class="box-part text-center">
-                        
+
             <i class="fa fa-line-chart fa-3x" aria-hidden="true"></i>
-                        
+
 						<div class="title">
 							<h4>Impulsá tus ventas</h4>
 						</div>
-                        
+
 						<div class="text">
 							<span>Conocé cuales son los productos más vendidos y tus clientes potenciales! <br> De acuerdo a ésta información podrás crear estrategias de marketing y contenido para impulsar tus ventas.</span>
 						</div>
-                        
+
 					 </div>
 				</div>
 
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-               
+        <div class="col-lg-4 col-md-12 col-sm-12">
+
 					<div class="box-part text-center">
-                        
+
             <i class="fa fa-comments-o fa-3x" aria-hidden="true"></i>
-                        
+
 						<div class="title">
 							<h4>Comentarios y reseñas</h4>
 						</div>
-                        
+
 						<div class="text">
 							<span>Las opiniones sobre tus productos son un punto clave! Los clientes leen los comentarios de otros usuarios antes de tomar una decisión de compra. Impulsá aún mas tus ventas con el sistema de comentarios y reseñas.</span>
 						</div>
-                        
+
 					 </div>
 				</div>
 
 
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-               
+        <div class="col-lg-4 col-md-12 col-sm-12">
+
 					<div class="box-part text-center">
-                        
+
             <i class="fa fa-star-o fa-3x" aria-hidden="true"></i>
-                        
+
 						<div class="title">
 							<h4>Promociones y descuentos</h4>
 						</div>
-                        
+
 						<div class="text">
 							<span>Podrás promocionar aquellos productos que creas necesarios. Ofrecerles descuentos a los usuarios son un elemento decisivo a la hora de vender. Los productos destacados aparecerán en distintas secciones del sitio.</span>
 						</div>
-                        
+
 					 </div>
 				</div>
-		
-		</div>		
+
+		</div>
     </div>
 </div>
 
-    <div class="container-fluid p-5 text-lead text-white text-center" style="background-color: #0BB5FF">
-      <h4>Disponemos de varios planes a partir de <strong>$25</strong> al mes, elegí el que mas se adapte a tu negocio o emprendimiento.</h4>
+    <div class="container p-5 text-lead text-black text-center" style="background-color: #fff">
+      <h4>Disponemos de varios <strong>planes</strong> a partir de <strong>$25</strong> al mes, elegí el que mas se adapte a tu negocio o emprendimiento de acuerdo a tus necesidades.</h4>
+      <br>
+      <h5>Cada plan tiene además un costo de implementación que se realiza en un pago único.</h5>
+      <p><em>Los precios marcados a continuación son en dólares.</em></p>
     </div>
 
     <div class="container my-5 p-5 bg-white">
-        <h4>Hemos lanzado una versión de demostración mostrando todas las características del producto, aquí te dejamos una <a href="https://www.sc-hosting.com.uy/" target="_blank">tienda de ejemplo</a>.</h4>
+        <h4>Hemos lanzado una versión de demostración mostrando todas las características del producto, aquí te dejamos una <a href="https://www.sc-hosting.com.uy/" target="_blank">tienda online</a> de ejemplo.</h4>
         <br>
         <h4>El siguiente botón te redirigirá al panel administrativo, te damos la posibilidad de que puedas ingresar productos, proveedores y gestionar ventas si así lo deseas.</h4>
         <p>La versión demo del software corresponde al plan <span class="badge badge-danger">Premium</span>.</p>
-        
+
         <a href="https://www.sc-hosting.com.uy/auth" target="_blank" class="btn btn-lg btn-primary">Ver DEMO <i class="fa fa-arrow-circle-right text-white"></i></a>
-        <p><em>Las credenciales de acceso podes encontrarlas en el formulario de inicio de sesión.</em></p>
+        <p><em>Las credenciales de acceso podrás encontrarlas en el formulario de inicio de sesión.</em></p>
     </div>
 
     <div class="pricing">
         <div class="container">
-            
+
             <!-- ASIDE -->
             <?php include('layouts/aside.php') ?>
 

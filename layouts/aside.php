@@ -44,7 +44,7 @@
                         </li>
                         <li class="">
                             <span>Pagos online</span>
-                            <i class="fa fa-question-circle" data-toggle="tooltip" data-placement="right" title="Tus clientes podrán realizar pagos online con tarjeta."></i>
+                            <i class="fa fa-question-circle" data-toggle="tooltip" data-placement="right" title="Tus clientes podrán realizar pagos online con tarjetas."></i>
                         </li>
                         <li class="">
                             <span>Punto de venta</span>

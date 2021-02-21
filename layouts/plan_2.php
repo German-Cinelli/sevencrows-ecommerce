@@ -14,7 +14,7 @@
                             <span class="currency">$</span>
                             <span class="cost">45</span>
                             <span class="period">/ mes</span>
-                            <span class="frequency">Todo lo básico para comenzar a vender por Internet</span>
+                            <span class="frequency">Paquete básico para comenzar a vender por Internet</span>
                         </div>
                     </div>
                     <div class="buy-button">
